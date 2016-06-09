@@ -1,0 +1,20 @@
+
+public class MatrixCross {	
+	public static void main(String[] args) {
+		 int[][] cross = {{0,1,0},
+				          {1,1,1},
+				          {0,1,0}};
+		 for (int i = 0; i < cross.length; i++) { 
+			 for (int j = 0; j < cross[i].length; j++) {
+				 System.out.print(cross[i][j] + " ");
+				 if (cross[i][j] < 1) {
+				 break;}
+				
+			}
+			 System.out.println();
+			
+		}
+				 
+	}
+
+}
