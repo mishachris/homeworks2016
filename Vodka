@@ -1,0 +1,21 @@
+
+public class Vodka {
+
+	public static void main(String[] args) {
+		
+		if (args.length == 2) {
+			System.out.println("Много");
+		}
+		
+		if (args.length == 5 ) {
+			System.out.println("Мало");
+		}
+		
+		if (args.length == 1) {
+			System.out.println("В самый раз");
+		}
+		
+
+	}
+
+}
