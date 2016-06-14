@@ -1,0 +1,37 @@
+import java.util.ArrayList;
+
+
+
+class Vektor {
+
+	public static void main(String[] args) {
+		ArrayList <Integer> vector = new ArrayList <Integer>();
+		
+		
+		int [][] a= { {1, 7, 8},
+		              {9, 3, 2},
+		              {55, 18, 4},
+		              {10,122,12}
+		};
+		
+		int max = 0;
+		
+		for (int j = 0; j < 4; j++) {
+			 for (int i = 0; i < 3; i++) {
+		    	
+		       if (a[j][i] > max) {
+		        max =a[j][i];  }
+		       
+		        }
+		
+		    vector.add(max);
+			
+		}
+		
+		for (Integer obj  : vector) {
+		   System.out.println(obj);}
+	}
+}
+		    		
+
+
