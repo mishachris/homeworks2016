@@ -1,0 +1,51 @@
+
+public class Creat {
+
+	public static void main(String[] args) {
+		Human human = new Human ("Иванов", "Максим");
+		human.work();
+		human.sleep();
+		human.work();
+	}
+
+}
+
+
+public class Human {
+
+	private String name;
+	private String secondname;
+	private boolean slept = false;
+	
+    public Human (String secondname, String name ) {
+    	this.secondname = secondname;
+    	this.name = name;
+    }
+	
+	public void work() {
+		
+		if (slept) { System.out.println(secondname + " " + name + " " + "работает продуктивно.");
+	}
+		else {
+			
+			System.out.println(secondname + " " + name + " " + "зевает.");
+		}
+		}
+	
+	public void sleep() {
+	
+		if (slept) { System.out.println(secondname + " " + name + " " + "читает книгу.");
+		}
+			else {
+				System.out.println(secondname + " " + name + " " + "ложится спать.");
+				slept = true;
+			}
+			}
+	}
+	
+	
+
+
+	
+
+
