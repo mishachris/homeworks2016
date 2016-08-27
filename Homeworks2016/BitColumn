@@ -1,0 +1,24 @@
+
+
+public class BitColumn {
+	
+	public static void main(String[] args) {
+		
+	
+	
+	int a = 14;
+	
+	String b = Integer.toBinaryString(a);
+	
+	System.out.println(b);
+	
+	for (int i = 0; i < b.length(); i++){
+		
+	System.out.println(b.substring(b.length()-(i+1), b.length()-i));}
+	}
+}
+
+
+	
+	
+
